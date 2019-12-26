@@ -53,7 +53,7 @@ dateTime.style.display = 'none';
 //Quantity
 quantDiv.style.display = 'none';
 
-function valueEval(){
+function valueEval(e){
 //Farm Product
 
     if (prod.value != '1') {
@@ -97,7 +97,7 @@ function valueEval(){
 
     if (prod.value != '4') {
         dateTime.style.display = 'none';
-        Btn.innerHTML = 'Place Order';
+        Btn.innerHTML = 'Order';
 
     }
     else {
@@ -105,10 +105,8 @@ function valueEval(){
         dateTime.style.display = 'block';
         Btn.innerHTML = 'Schedule';
     }
-
-    if (prod.value = '0'){
-        quantDiv.style.display = 'none';
-    }
+    
+    e.preventDefault
 }
 
 //Beginning Of Farm Product Eval

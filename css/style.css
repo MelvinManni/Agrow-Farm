@@ -28,7 +28,7 @@ body{
     color: #383127;
 }
 section{
-    background-color:rgba(240, 248, 255, 0.6);
+    background-color:rgba(240, 248, 255, 0.7);
 }
 h1, h2, h3, h4, h5, h6{
     font-family:AlgeSc ;
@@ -137,31 +137,39 @@ ul{
 .order-label{
     font-size: 14px;
     font-weight: 500;
-    color: ;
 }
 
 option{
     text-transform: capitalize;
 }
 
- @media all and (max-width: 1367px){
-     .art-img{
-         width: 150px;
-     }
-
+@media all and (max-width: 1365px){
      .art-wel{
          background-image: url('../assets/images/background/book-plant-bg2.jpg');
          background-size: cover;
      }
 
+     .pro-mob{
+         display: flex;
+         flex-direction: column !important;
+     }
+     .mobPadding{
+         padding-left: 0 !important;
+         padding-top: 5px;
+     }
  }
  @media all and (max-width:1024px){
      #order-btn{
          margin-bottom: 20px;
      }
 
-     .art-img{
-         width: 140px;
+     #home-art-img{
+         width: 240px;
+     }
+
+     .pro-mob{
+         display: flex;
+         flex-direction: row;
      }
  }
  @media all and (max-width: 721px){

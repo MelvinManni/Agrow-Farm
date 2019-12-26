@@ -20,9 +20,9 @@ var rightBtn = document.getElementById('right-click');
 var leftBtn = document.getElementById('left-click');
 
 var review = [];
-review[0] = '\"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus earum voluptate fuga fugiat, dignissimos, dolorem ipsam error facilis odit veniam dolores voluptas. Ullam, saepe? Ipsam ducimus consectetur quam quas non!\"';
-review[1] = '\"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam officiis cumque eligendi ullam rem quos vel cupiditate accusamus nesciunt fugiat animi, reprehenderit sapiente, autem sed, harum in pariatur a nihil.\"';
-review[2] = '\"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed distinctio eveniet ad consequuntur commodi? Soluta alias doloremque obcaecati vitae hic culpa deleniti officiis nostrum perspiciatis? Temporibus, eos. Magni, hic quod.\"';
+review[0] = '\"Lorem ipsum elit. Voluptatibus earum voluptate fuga fugiat, dignissimos, dolorem ipsam error facilis odit veniam dolores voluptas. Ullam, saepe? Ipsam ducimus consectetur quam quas non!\"';
+review[1] = '\"Lorem ipsum dolor sit amet . Aliquam officiis cumque eligendi ullam rem quos vel cupiditate accusamus nesciunt fugiat animi, reprehenderit sapiente, autem sed, harum in pariatur a nihil.\"';
+review[2] = '\"Lorem ipsum  adipisicing elit. Sed distinctio eveniet ad consequuntur commodi? Soluta alias doloremque obcaecati vitae hic culpa deleniti officiis nostrum perspiciatis? Temporibus, eos. Magni, hic quod.\"';
 
 var user = [];
 user[0] = '-James Corner';
