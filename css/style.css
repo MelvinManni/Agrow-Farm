@@ -1,0 +1,187 @@
+@font-face{
+    font-family: Lilita;
+    font-size: 18px;
+    src: url(../assets/fonts/Lilita_One/LilitaOne-Regular.ttf);
+}
+@font-face{
+    font-family:Alge;
+    src: url(../assets/fonts/Alegreya/Alegreya-Black.ttf);
+    src: url(../assets/fonts/Alegreya/Alegreya-Bold.ttf);
+    src: url(../assets/fonts/Alegreya/Alegreya-Medium.ttf);
+    src: url(../assets/fonts/Alegreya/Alegreya-Regular.ttf);
+}
+@font-face{
+    font-family:AlgeSc ;
+    src: url(../assets/fonts/Alegreya_SC/AlegreyaSC-Bold.ttf);
+    src: url(../assets/fonts/Alegreya_SC/AlegreyaSC-ExtraBold.ttf);
+    src: url(../assets/fonts/Alegreya_SC/AlegreyaSC-Medium.ttf);
+    src: url(../assets/fonts/Alegreya_SC/AlegreyaSC-Regular.ttf);
+}
+
+body{
+    font-family: Alge;
+    width: 100%;
+    font-size: 14px;
+    background-image: url('../assets/images/background/leaves-mob.png');
+    background-repeat: repeat;
+    background-size: 500px;
+    color: #383127;
+}
+section{
+    background-color:rgba(240, 248, 255, 0.6);
+}
+h1, h2, h3, h4, h5, h6{
+    font-family:AlgeSc ;
+    color: #70ab8f;
+    font-weight: bold;
+}
+
+.slidetext{
+    z-index: 1;
+}
+
+.nav-logo{
+    font-family: Lilita;
+    font-weight: 700;
+}
+
+.nav-item{
+    margin-left: 20px;
+}
+
+.nav-item a{
+    font-size: 14;
+    font-weight: 600;
+}
+.nav-item a:hover{
+    color: rgb(7, 43, 15);
+}
+
+.welcome-section{
+    background-image: url('../assets/images/background/background-image-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.art-wel{
+    background-image: url('../assets/images/background/book-plant-bg3.jpg');
+}
+.padded-welcome{
+    padding: 100px 0;
+    background-color: rgba(14, 13, 13, 0.5);
+}
+
+.wrapper{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.order-sect{
+    padding: 30px 20px;
+    border: 0.1px solid rgb(189, 188, 188) ;
+    background-color:rgba(240, 248, 255, 0.6);
+}
+
+.article-info{
+    color: #DC5B21;
+}
+
+.testmonial{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.testmonial i{
+    font-size: 30px;
+} 
+.slide-wrap{
+    width: 80%;
+}
+ .review-text{
+     font-size: 16px;
+ }
+
+ .button{
+     height: 20px;
+ }
+
+ footer p a{
+     color: white;
+ }
+
+ footer p a:hover{
+     color: rgb(194, 194, 194);
+     font-size: 12px;
+ }
+
+ .about-section{
+     width: 96%;
+     margin: auto;
+ }
+
+ 
+#arrow-up{
+    text-align: right;
+    position: fixed;
+    bottom: 50px;
+    left: 80%;
+    font-size: 20px;
+    color: #DC5B21;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+.order-label{
+    font-size: 14px;
+    font-weight: 500;
+    color: ;
+}
+
+option{
+    text-transform: capitalize;
+}
+
+ @media all and (max-width: 1367px){
+     .art-img{
+         width: 150px;
+     }
+
+     .art-wel{
+         background-image: url('../assets/images/background/book-plant-bg2.jpg');
+         background-size: cover;
+     }
+
+ }
+ @media all and (max-width:1024px){
+     #order-btn{
+         margin-bottom: 20px;
+     }
+
+     .art-img{
+         width: 140px;
+     }
+ }
+ @media all and (max-width: 721px){
+     body{
+         background-size:800px;
+     }
+     .recent{
+         margin-top: 20px;
+         text-align: left;
+
+     }
+     .mob-line{
+         display: block;
+     }
+
+     .mobPadding{
+         padding-top: 10px;
+     }
+     .art-wel{
+         background-image: url(../assets/images/background/book-plant-bg.jpg);
+         background-size: cover;
+     }
+ }
